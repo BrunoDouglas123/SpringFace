@@ -1,0 +1,9 @@
+INSERT INTO local (nome,ramo,proprietario) VALUES ('Kwik e Mart','conveniencia', 'Apu Nahasapeemapetilon');
+INSERT INTO local (nome,ramo,proprietario) VALUES ('Pai','1963-05-30');
+INSERT INTO familia (nome,data) VALUES ('Pai','1963-05-30');
+INSERT INTO familia (nome,data) VALUES ('Pai','1963-05-30');
+INSERT INTO familia (nome,data) VALUES ('Pai','1963-05-30');
+INSERT INTO familia (nome,data) VALUES ('Pai','1963-05-30');
+INSERT INTO familia (nome,data) VALUES ('Pai','1963-05-30');
+INSERT INTO familia (nome,data) VALUES ('Pai','1963-05-30');
+INSERT INTO familia (nome,data) VALUES ('Pai','1963-05-30');

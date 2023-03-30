@@ -1,0 +1,15 @@
+package Teste.com.teste.DTO;
+
+import java.time.LocalDate;
+
+public class NoticiaDTO {
+	
+	private Long id;
+	private String nome;
+	private LocalDate data;
+	private String conteudo;
+	
+	public NoticiaDTO() {		
+	}
+
+}

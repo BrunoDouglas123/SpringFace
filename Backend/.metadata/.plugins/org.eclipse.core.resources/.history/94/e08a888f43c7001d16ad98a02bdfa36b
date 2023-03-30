@@ -1,0 +1,51 @@
+package Teste.com.teste.Service;
+
+import java.util.List;
+import java.util.Optional;
+import java.util.stream.Collectors;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import Teste.com.teste.DTO.GameDTO;
+import Teste.com.teste.Model.Game;
+import Teste.com.teste.Repository.GameRepository;
+
+@Service
+public class GameService {
+	
+	@Autowired
+	private GameRepository repository;
+	
+	public List<GameDTO> findAll() {
+		List<Game> result = repository.findAll();
+		return result.stream().map(x -> new
+		GameDTO(x)).collect(Collectors.toList());
+	}
+	
+	public Game findById(Long id) {
+		Optional<Game> v = repository.findById(id);
+		return v.get();
+	}
+	
+	public Game save(Game Game) {
+		Game v = repository.save(Game);
+		return v;
+	}
+	
+	@Transactional
+	public Game update(Long id,Game Game) {
+		Game v = repository.getById(id);
+		v.setId(id); 
+		v.setNome(Game.getNome());
+		v.setClassificacao(Game.getClassificacao());
+		Game vendpt = repository.save(v);
+		return vendpt;
+	}
+	
+	public void delete(Long id) {
+		repository.deleteById(id);
+	}
+
+}

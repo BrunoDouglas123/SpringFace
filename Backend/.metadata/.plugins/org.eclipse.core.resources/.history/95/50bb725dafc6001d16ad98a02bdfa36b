@@ -1,0 +1,2 @@
+INSERT INTO local (nome,ramo,proprietario) VALUES ('Kwik e Mart','conveniencia', 'Apu Nahasapeemapetilon');
+INSERT INTO local (nome,ramo,proprietario) VALUES ('Calabouço do Androide','Quadrinhos', 'Cara dos Quadrinhos');

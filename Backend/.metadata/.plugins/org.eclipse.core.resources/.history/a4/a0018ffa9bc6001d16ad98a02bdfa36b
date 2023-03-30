@@ -1,0 +1,15 @@
+package Teste.com.teste.DTO;
+
+public class MoradorDTO {
+	
+	private Long id;
+	private String nome;
+	private String ocupacao;
+	private int pena;
+	private String parente;
+	private int idade;
+	
+	public MoradorDTO() {				
+	}
+
+}

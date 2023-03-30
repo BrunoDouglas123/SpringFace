@@ -1,0 +1,49 @@
+package Teste.com.teste.DTO;
+
+import Teste.com.teste.Model.Game;
+
+public class GameDTO {
+	
+	private Long id;
+	private String nome;
+	private int classificacao;
+	
+	public GameDTO() {		
+	}
+
+	public GameDTO(Long id, String nome, int classificacao) {
+		this.id = id;
+		this.nome = nome;
+		this.classificacao = classificacao;
+	}
+	
+	public GameDTO(Game entity) {
+		this.id = entity.getId();
+		this.nome = entity.getNome();
+		this.classificacao = entity.getClassificacao();
+	}
+
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public int getClassificacao() {
+		return classificacao;
+	}
+
+	public void setClassificacao(int classificacao) {
+		this.classificacao = classificacao;
+	}
+}

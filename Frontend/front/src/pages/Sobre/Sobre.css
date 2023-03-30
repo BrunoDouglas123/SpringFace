@@ -1,0 +1,157 @@
+* { 
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding: 31px;
+}
+
+.item1 {
+  background-color: #00BFFF;
+  display: flex;
+  border-radius: 4px;
+  width: 41%;
+  height: 290px;
+  padding: 5px;
+}
+
+textarea {
+  background-color: #00BFFF;
+  color: #FFF;
+  font-size: 18px;
+  resize: none;
+  border: none;
+}
+
+.img_homer {
+  width: 61px;
+  height: 151px;
+}
+
+.img_herb {
+  width: 61px;
+  height: 151px;
+}
+
+.img_abbie {
+  width: 61px;
+  height: 151px;
+}
+
+.img_marge {
+    width: 71px;
+    height: 168px;
+}
+
+.img_patty {
+  width: 61px;
+  height: 151px;
+}
+
+.img_selma {
+  width: 78px;
+  height: 151px;
+}
+
+.img_bart {
+  width: 51px;
+  height: 98px;
+}
+
+.img_hugo {
+  width: 56px;
+  height: 98px;
+}
+
+.img_lisa {
+  width: 48px;
+  height: 93px;
+}
+
+.img_maggie {
+  width: 48px;
+  height: 78px;
+}
+
+.img_ling {
+  width: 61px;
+  height: 102px;
+}
+
+.img_abe {
+  width: 64px;
+  height: 145px;
+}
+
+.img_jackie {
+    width: 63px;
+    height: 165px;
+}
+
+.img_mona {
+  width: 61px;
+  height: 140px;
+}
+
+.img_rita {
+  width: 61px;
+  height: 140px;
+}
+
+.img_edwina {
+  width: 76px;
+  height: 131px;
+}
+
+.img_zia {
+  width: 58px;
+  height: 131px;
+}
+
+.img_jiff {
+  width: 45px;
+  height: 102px;
+}
+
+.img_skippy {
+  width: 61px;
+  height: 98px;
+}
+
+@media (max-width: 670px) {
+  .container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  }
+
+  .item1 {
+    background-color: #00BFFF;
+    display: flex;
+    border-radius: 4px;
+    width: 70%;
+    height: 351px;
+    padding: 5px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    }
+  
+    .item1 {
+      background-color: #00BFFF;
+      display: flex;
+      border-radius: 4px;
+      width: 70%;
+      height: 381px;
+      padding: 5px;
+    }
+}
