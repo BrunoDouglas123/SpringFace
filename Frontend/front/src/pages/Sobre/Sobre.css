@@ -10,7 +10,7 @@
   padding: 31px;
 }
 
-.item1 {
+.familia {
   background-color: #00BFFF;
   display: flex;
   border-radius: 4px;
@@ -108,18 +108,147 @@ textarea {
 }
 
 .img_zia {
-  width: 58px;
-  height: 131px;
+  width: 45px;
+  height: 120px;
 }
 
 .img_jiff {
-  width: 45px;
+  width: 48px;
   height: 102px;
 }
 
 .img_skippy {
   width: 61px;
   height: 98px;
+}
+
+.residentes {
+  background-color: #00BFFF;
+  display: flex;
+  border-radius: 4px;
+  width: 41%;
+  height: 290px;
+  padding: 5px;
+}
+
+.img_moe {
+  width: 58px;
+  height: 126px;
+}
+
+.img_willie {
+  width: 71px;
+  height: 126px;
+}
+
+.img_burns {
+  width: 56px;
+  height: 131px;
+}
+
+.img_apu {
+  width: 48px;
+  height: 131px;
+}
+
+.img_manjula {
+  width: 53px;
+  height: 128px;
+}
+
+.criancas {
+  background-color: #00BFFF;
+  display: flex;
+  border-radius: 4px;
+  width: 41%;
+  height: 290px;
+  padding: 5px;
+}
+
+.img_nelson {
+  width: 51px;
+  height: 98px;
+}
+
+.img_martin {
+  width: 51px;
+  height: 98px;
+}
+
+.img_ralph {
+  width: 51px;
+  height: 98px;
+}
+
+.img_charlie {
+  width: 61px;
+  height: 98px;
+}
+
+.img_jimbo {
+  width: 48px;
+  height: 128px;
+}
+
+.img_shauna {
+  width: 48px;
+  height: 123px;
+}
+
+.img_nikki {
+  width: 51px;
+  height: 102px;
+}
+
+.img_mary {
+  width: 51px;
+  height: 102px;
+}
+
+.img_gina {
+  width: 51px;
+  height: 102px;
+}
+
+.img_jessica {
+  width: 51px;
+  height: 102px;
+}
+
+.img_greta {
+  width: 51px;
+  height: 102px;
+}
+
+.img_juliet {
+  width: 51px;
+  height: 102px;
+}
+
+.img_sherryandterry {
+  width: 88px;
+  height: 102px;
+}
+  
+.local {
+  background-color: #00BFFF;
+  color: #FFF;
+  display: flex;
+  justify-content: center;
+  border-radius: 4px;
+  width: 51%;
+  height: 376px;
+  padding: 5px;
+}
+
+.direction { 
+  display: flex;
+  flex-direction: column;
+}
+
+.img_kem {
+  width: 176px;
+  height: 102px;
 }
 
 @media (max-width: 670px) {
@@ -129,12 +258,39 @@ textarea {
   flex-direction: column;
   }
 
-  .item1 {
+  .familia {
     background-color: #00BFFF;
     display: flex;
     border-radius: 4px;
-    width: 70%;
-    height: 351px;
+    width: 51%;
+    height: 376px;
+    padding: 5px;
+  }
+
+  .residentes {
+    background-color: #00BFFF;
+    display: flex;
+    border-radius: 4px;
+    width: 51%;
+    height: 376px;
+    padding: 5px;
+  }
+
+  .criancas {
+    background-color: #00BFFF;
+    display: flex;
+    border-radius: 4px;
+    width: 51%;
+    height: 376px;
+    padding: 5px;
+  }
+  
+  .local {
+    background-color: #00BFFF;
+    display: flex;
+    border-radius: 4px;
+    width: 51%;
+    height: 376px;
     padding: 5px;
   }
 }
@@ -146,7 +302,34 @@ textarea {
     flex-direction: column;
     }
   
-    .item1 {
+    .familia {
+      background-color: #00BFFF;
+      display: flex;
+      border-radius: 4px;
+      width: 70%;
+      height: 381px;
+      padding: 5px;
+    }
+
+    .residentes {
+      background-color: #00BFFF;
+      display: flex;
+      border-radius: 4px;
+      width: 70%;
+      height: 381px;
+      padding: 5px;
+    }
+
+    .criancas {
+      background-color: #00BFFF;
+      display: flex;
+      border-radius: 4px;
+      width: 70%;
+      height: 381px;
+      padding: 5px;
+    }
+  
+    .local {
       background-color: #00BFFF;
       display: flex;
       border-radius: 4px;

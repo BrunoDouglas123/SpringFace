@@ -51,11 +51,6 @@ function Navbar() {
             </MobileIcon>
             <NavMenu onClick={handleClick} click={click}>
               <NavItem>
-                <NavLinks to="/noticias" onClick={closeMobileMenu}>
-                  Noticias
-                </NavLinks>
-              </NavItem>
-              <NavItem>
                 <NavLinks to="/episodios" onClick={closeMobileMenu}>
                   Episódios
                 </NavLinks>

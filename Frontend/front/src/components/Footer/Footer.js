@@ -62,30 +62,30 @@ function Footer() {
           </SocialLogo>
           <SocialIcons>
             <SocialIconLink
-              href="https://www.facebook.com/"
-              aria-label="Facebook"
-            >
-              <FaFacebook />
-            </SocialIconLink>
-            <SocialIconLink
               href="https://www.instagram.com/"
               aria-label="Instagram"
             >
               <FaInstagram />
             </SocialIconLink>
             <SocialIconLink
-              href={"https://www.youtube.com/"}
-              rel="noopener noreferrer"
-              aria-label="Twitter"
+              href="https://www.facebook.com/"
+              aria-label="Facebook"
             >
-              <FaTwitter />
+              <FaFacebook />
             </SocialIconLink>
             <SocialIconLink
-              href={"https://www.youtube.com/"}
+              href={"https://www.youtube.com/channel/UCS248ljHlC6VpYQ_-m4dtmA"}
               rel="noopener noreferrer"
               aria-label="Youtube"
             >
               <FaYoutube />
+            </SocialIconLink>
+            <SocialIconLink
+              href={"https://twitter.com/home?lang=pt"}
+              rel="noopener noreferrer"
+              aria-label="Twitter"
+            >
+              <FaTwitter />
             </SocialIconLink>
           </SocialIcons>
         </SocialMediaWrap>
